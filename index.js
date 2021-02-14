@@ -130,10 +130,11 @@ function onSearch(){
     let searchQuery=searchInput.value;
     let baseURL="https://api.themoviedb.org/3/search/movie?api_key="+API_KEY;
     let searchURL=baseURL+"&"+"query"+"="+searchQuery;
-    category_heading.innerHTML="Search Result";
+    category_heading.innerHTML="Search Result("+searchQuery+")";
     fetchMovies(searchURL);
     pagination.innerHTML=""; 
     createPaginationButton(searchURL);
+    searchInput.value="";
 }
 
 function getTrendingMovies(){
