@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="search-container">
+                <img class="bg-image"src="images/movie.jpg" >
+            <div class="text-search">
+                <h1 class="img-text">Find your next favourite show</h1>
+                <input id="input" placeholder="enter movie name"></input>
+                <button id="btn-select">Search</button>
+            </div>
+    </div> 
+    <div class="filters">
+        <div>
+            <button class="filter-button category-active" id="trending" > Trending</button>
+            <button class="filter-button" id="popular" >Popular</button>
+            <button class="filter-button" id="top-rated"> Top Rated</button>
+        </div>
+        <div >
+            Sort By <button class="filter-button" id="sort-rating" >Rating(desc) </button>
+            <button class="filter-button" id="sort-release">Latest release</button> 
+            <button class="filter-button" id="sort-popularity">Popularity(desc)</button>    
+        </div>       
+    </div>
+    <div>
+        <h1 id="category-title"></h1>
+        <div id="result-container"></div>
+    </div>
+    <div class="pagination">
+    </div> 
+    <script type='text/javascript' src='config.js'></script>
+    <script src="movies-view.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
