@@ -1,4 +1,4 @@
-const API_KEY=config.MY_KEY; 
+const API_KEY="a5eb0ae6f14600d9235e78acc25906a4" ; 
 
 const x = {};
 const pages={};

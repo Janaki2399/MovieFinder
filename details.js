@@ -1,4 +1,4 @@
-const API_KEY=config.MY_KEY; 
+const API_KEY="a5eb0ae6f14600d9235e78acc25906a4" ; 
 const BACKDROP_IMAGE_PATH="https://image.tmdb.org/t/p/w1280/";
 const POSTER_IMAGE300_PATH="https://image.tmdb.org/t/p/w300/";
 
